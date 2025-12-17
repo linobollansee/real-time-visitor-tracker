@@ -118,11 +118,11 @@ export default function Home() {
                 How it works:
               </h2>
               <ul className="text-sm text-gray-600 space-y-1">
-                <li>• Open multiple tabs to see the count increase</li>
-                <li>• Close tabs to see the count decrease</li>
-                <li>• Unique visitors are tracked using cookies</li>
-                <li>• Updates happen in real-time via SSE</li>
-                <li>• Connection automatically reconnects if interrupted</li>
+                <li>Open multiple tabs to see the count increase</li>
+                <li>Close tabs to see the count decrease</li>
+                <li>Unique visitors are tracked using cookies</li>
+                <li>Updates happen in real-time via SSE</li>
+                <li>Connection automatically reconnects if interrupted</li>
               </ul>
             </div>
           </div>
