@@ -78,7 +78,7 @@ app.get("/events", (req, res) => {
 
   // Heartbeat - send a comment every 15 seconds to keep connection alive
   const heartbeatInterval = setInterval(() => {
-    res.write(": heartbeat\n\n");
+    res.write(`heartbeat: {"timestamp":"${new Date().toISOString()}"}\n\n`);
   }, 15000);
 
   // Handle client disconnect
